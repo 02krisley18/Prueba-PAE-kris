@@ -1,0 +1,90 @@
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hwb(318 4% 5%);
+}
+
+/* Encabezado */
+header {
+    background-color: lch(3.39% 2.32 324.43);
+    color: #fa1fd5;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hsl(318, 94%, 51%);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: hsl(293, 94%, 51%);
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    background-color: hsl(320, 100%, 60%);
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(21, 218, 3, 0.1);
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid lab(48.23% 77.33 -18.69);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+td[contenteditable="true"] {
+    background-color: hwb(310 7% 5%);
+    cursor: text;
+}
+
+/* Imágenes en la galería */
+figure {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: hwb(315 4% 5%);
+}
+
+/* Pie de página */
+footer {
+    background-color: lab(61.73% 89.19 -51.96);
+    color: hwb(315 2% 5%);
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
